@@ -1,0 +1,35 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Conda
+.conda/
+
+# Local generated datasets and uploads
+backend/datasets/
+backend/uploads/
+backend/temp/
+
+# OS files
+.DS_Store
+
+# Editor local files
+.vscode/*
+!.vscode/settings.json
